@@ -29,6 +29,7 @@ nav button {
     padding: 30px 16px;
     margin: 0px 10px;
     font-size: 18px;
+    font-weight: bold;
     width: 12%;
     border-radius: 12px;
 }
