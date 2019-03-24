@@ -42,9 +42,9 @@ nav a button:hover {
 
 nav a {
 	transition: all 0.5s ease;
-	font-family: 'Montserrat', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	color: #fff;
 	text-decoration: none;
+	font-family: 'Montserrat', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 nav a button:hover {
@@ -68,6 +68,12 @@ nav img {
 	background-size: cover;
 }
 
+.line {
+	background-color: #ffcc00;
+}
+
+
+
 .overview {
 	background-color: #333;
 	text-align: center;
@@ -83,9 +89,7 @@ nav img {
 	font-size: 25px;
 }
 
-.line {
-	background-color: #ffcc00;
-}
+
 
 .tour {
 	text-align: center;
@@ -94,13 +98,13 @@ nav img {
 
 .tour th {
 	font-size: 40px;
-	text-align: right;
+	text-align: center;
 	text-decoration: underline;
 }
 
 .tour td {
 	font-size: 25px;
-	text-align: right;
+	text-align: center;
 }
 
 .tour button {
@@ -119,16 +123,60 @@ nav img {
 	background-color: #333;
 }
 
+
+
 .music {
 	width: 100%;
 	text-align: center;
+	overflow: hidden;
 }
 
-.music td {
-	border-right: 5px;
-	border-left: 5px;
-	width: 33.333%
+.music img {
+	float: left;
+	padding: 25px;
+	padding-left: 50px;
+	transition: all 0.5s ease;
 }
+
+.music ul {
+	list-style-type: none;
+	float: right;
+	padding-top: 20px;
+	padding-right: 10%;
+}
+
+.music li {
+	padding: 10px 0px;
+}
+
+
+
+.merch {
+	text-align: center;
+}
+
+.merch figure {
+	display: inline-block;
+	padding: 10px 40px;
+}
+
+.merch button {
+	height: 70px;
+	width: 135px;
+	color: inherit;
+	background-color: #444;
+	transition: all 0.5s ease;
+	cursor: pointer;
+	border-radius: 12px;
+	outline: 0;
+}
+
+.merch button:hover {
+	transition: all 0.5s ease;
+	background-color: #333;
+}
+
+
 
 footer {
 	max-height: 250px;
