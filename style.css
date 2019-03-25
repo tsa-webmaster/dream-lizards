@@ -11,7 +11,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-	width: 20px;
+	width: 50px;
 }
 
 ::-webkit-scrollbar-track {
@@ -160,7 +160,7 @@ nav img {
 	list-style-type: none;
 	float: right;
 	padding-top: 20px;
-	padding-left: 100px;
+	padding-left: 5%;
 }
 
 .music li {
