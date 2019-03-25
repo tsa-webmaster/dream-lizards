@@ -37,7 +37,7 @@ nav {
 	font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-nav a button {
+nav button {
 	background-color: #444;
 	transition: all 0.5s ease;
 	opacity: 0.8;
@@ -54,7 +54,9 @@ nav a button {
 	border-radius: 12px;
 }
 
-nav a button:hover {
+nav button:hover {
+	color: #ffcc00;
+	transition: inherit;
 	transition: all 0.5s ease;
 }
 
@@ -63,11 +65,6 @@ nav a {
 	color: #fff;
 	text-decoration: none;
 	font-family: 'Montserrat', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-nav a button:hover {
-	color: #ffcc00;
-	transition: inherit;
 }
 
 nav img {
