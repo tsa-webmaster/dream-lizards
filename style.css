@@ -99,7 +99,7 @@ nav img {
 	margin: 20px;
 }
 
-.overview h1 {
+.overview h1
 	font-size: 40px;
 }
 
@@ -160,7 +160,7 @@ nav img {
 	list-style-type: none;
 	float: right;
 	padding-top: 20px;
-	padding-left: 25%;
+	padding-left: 100px;
 }
 
 .music li {
@@ -219,7 +219,7 @@ footer {
 	font-size: 100px;
 }
   
-  .fa:hover {
+.fa:hover {
 	color: #ffcc00;
 	transition: all 0.5s ease;
 }
