@@ -11,17 +11,17 @@ body {
 }
 
 ::-webkit-scrollbar {
-	width: 50px;
+	width: 20px;
 }
 
 ::-webkit-scrollbar-track {
 	background: #555;
-	border-radius: 50px;
+	border-radius: 20px;
 }
 
 ::-webkit-scrollbar-thumb {
 	background: #aaa;
-	border-radius: 50px;
+	border-radius: 20px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -160,7 +160,7 @@ nav img {
 	list-style-type: none;
 	float: right;
 	padding-top: 20px;
-	padding-right: 10%;
+	padding-right: 15%;
 }
 
 .music li {
