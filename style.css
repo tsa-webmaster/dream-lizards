@@ -11,17 +11,17 @@ body {
 }
 
 ::-webkit-scrollbar {
-	width: 20px;
+	width: 15px;
 }
 
 ::-webkit-scrollbar-track {
 	background: #555;
-	border-radius: 20px;
+	border-radius: 15px;
 }
 
 ::-webkit-scrollbar-thumb {
 	background: #aaa;
-	border-radius: 20px;
+	border-radius: 15px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -34,6 +34,7 @@ nav {
 	padding: 5px;
 	position: fixed;
 	width: 100%;
+	z-index: 1;
 	font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -93,15 +94,16 @@ nav img {
 	background-color: #333;
 	text-align: center;
 	top: 10px;
-	margin: 20px;
+	margin: 20px 250px;
 }
 
-.overview h1
+.overview h1 {
 	font-size: 40px;
 }
 
-.overview p {
-	font-size: 25px;
+.overview p, .overview a {
+	font-size: 20px;
+	display: inline;
 }
 
 
