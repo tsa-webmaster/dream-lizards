@@ -1,6 +1,7 @@
 * {
 	margin: 0px;
 	padding: 0px;
+	
 	color: #ffcc00;
 	scroll-behavior: smooth;
 	font-family: 'Orbitron', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -94,7 +95,9 @@ nav img {
 	background-color: #333;
 	text-align: center;
 	top: 10px;
-	margin: 20px 250px;
+	margin: 20px;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
 .overview h1 {
@@ -104,6 +107,12 @@ nav img {
 .overview p, .overview a {
 	font-size: 20px;
 	display: inline;
+	transition: all 0.5s ease;
+}
+
+.overview a:hover {
+	color: #ffaa00;
+	transition: all 0.5s ease;
 }
 
 
